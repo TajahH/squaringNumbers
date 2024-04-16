@@ -4,5 +4,5 @@
 const readline = require("readline-sync");
 
 for (let i = 1; i <= 100; i++){
-    console.log(Math.pow(i,2))
+    console.log(`${i} squared is ` + Math.pow(i,2))
 }
